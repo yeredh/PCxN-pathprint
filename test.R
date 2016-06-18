@@ -1,3 +1,6 @@
+# density estimate with default parameters for 
+# different sample sizes
+
 x = seq(-3,3,length.out = 1000)
 for(n in c(10,100,1000,10000)){
   plot(density(rnorm(n)),
